@@ -32,20 +32,6 @@ Este proyecto implementa un sistema de juego de cartas donde cada jugador recibe
 ### Cálculo de Puntos
 Solo las cartas que **NO** forman parte de ningún grupo (pares, ternas, cuartetos o escaleras) cuentan para la puntuación final.
 
-## Estructura del Proyecto
-
-```
-src/
-├── App.java              # Clase principal del juego
-├── FrmJuego.java         # Interfaz gráfica principal
-├── Jugador.java          # Lógica del jugador y detección de grupos
-├── Carta.java            # Representación de una carta individual
-├── NombreCarta.java      # Enum con los nombres de las cartas (AS, DOS, ..., KING)
-├── Pinta.java            # Enum con las pintas (TREBOL, PICA, CORAZON, DIAMANTE)
-├── Grupo.java            # Enum para tipos de grupos
-└── deck/                 # Imágenes de las cartas (CARTA1.JPG - CARTA52.JPG)
-```
-
 ## Cómo Jugar
 
 1. **Ejecutar el juego**: Lanzar la aplicación Java
@@ -60,22 +46,10 @@ src/
 
 - **Java**: Lenguaje de programación principal
 - **Swing**: Para la interfaz gráfica
-- **AWT**: Para el manejo de eventos y componentes visuales
 
 ## Requisitos del Sistema
 
-- Java 8 o superior
 - Entorno de desarrollo Java (JDK)
-
-## Compilación y Ejecución
-
-```bash
-# Compilar el proyecto
-javac -d bin src/*.java
-
-# Ejecutar el juego
-java -cp bin App
-```
 
 ## Características Técnicas
 
