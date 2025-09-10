@@ -1,3 +1,6 @@
+# Autor: Deiber Alexander Herrera Gamarra
+
+
 # Juego de Cartas
 
 Un juego de cartas desarrollado en Java con interfaz gráfica que permite a dos jugadores recibir cartas y formar grupos para obtener puntos.
@@ -54,9 +57,6 @@ Solo las cartas que **NO** forman parte de ningún grupo (pares, ternas, cuartet
 ## Características Técnicas
 
 - **Prevención de cartas repetidas**: Uso de `Collections.shuffle()` para evitar duplicados
-- **Detección inteligente de grupos**: Algoritmos para identificar pares, ternas, cuartetos y escaleras
-- **Interfaz intuitiva**: Pestañas separadas para cada jugador con colores distintivos
-- **Sistema de eventos**: Botones interactivos para repartir y verificar cartas
 
 ## Contribuciones
 
